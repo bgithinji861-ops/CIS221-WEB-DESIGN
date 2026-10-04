@@ -1,0 +1,106 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Patient Registration Form</title>
+</head>
+<body>
+
+  <h2>Patient Registration Form</h2>
+
+  <form action="" method="post">
+    <table border="1">
+      <theader>
+        <tr>
+          <th>Field Name</th>
+          <th>Form Content</th>
+        </tr>
+      </theader>
+      <tb>
+        
+        <tr>
+          <td><label for="name">Full Name:</label></td>
+          <td><input type="text" id="name" name="name" required></td>
+        </tr>
+
+        
+        <tr>
+          <td><label for="age">Age:</label></td>
+          <td><input type="number" id="age" name="age" min="0" required></td>
+        </tr>
+
+        
+        <tr>
+          <td><label for="gender">Gender:</label></td>
+          <td>
+            <select id="gender" name="gender" required>
+              <option value="">-- Select Gender --</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+          </td>
+        </tr>
+
+        
+        <tr>
+          <td><label for="id_number">ID Number:</label></td>
+          <td><input type="text" id="id_number" name="id_number" required></td>
+        
+        <tr>
+          <td><label for="patient_id">Patient ID:</label></td>
+          <td><input type="text" id="patient_id" name="patient_id" required></td>
+        </tr>
+
+        
+        <tr>
+          <td><label for="phone">Phone Number:</label></td>
+          <td><input type="tel" id="phone" name="phone" required></td>
+        </tr>
+
+        
+        <tr>
+          <td><label for="health_status">Health Status:</label></td>
+          <td><input type="text" id="health_status" name="health_status"></td>
+       
+          </td>
+        
+        <tr>
+          <td><label for="address">Address:</label></td>
+          <td><textarea id="address" name="address" rows="4" cols="30"></textarea></td>
+        </tr>
+
+        
+        <tr>
+          <td><label for="marital_status">Marital Status:</label></td>
+          <td>
+            <select id="marital_status" name="marital_status">
+              <option value="">-- Select Status --</option>
+              <option value="Single">Single</option>
+              <option value="Married">Married</option>
+              <option value="Divorced">Divorced</option>
+              <option value="Widowed">Widowed</option>
+            </select>
+          </td>
+        
+        <tr>
+          <td><label for="next_of_kin">Next of Kin:</label></td>
+          <td><input type="text" id="next_of_kin" name="next_of_kin"></td>
+        </tr>
+
+        <tr>
+          <td><label for="weight">Weight (kg):</label></td>
+          <td><input type="number" id="weight" name="weight" step="0.1"></td>
+        
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" value="Register Patient">
+            <input type="reset" value="Clear Form">
+          </td>
+        </tr>
+      </tb>
+    </table>
+  </form>
+
+</body>
+</html>

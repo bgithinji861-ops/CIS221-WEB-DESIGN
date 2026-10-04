@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Patient Registration Form</title>
+</head>
+<body>
+
+  <h2>Patient Registration Form</h2>
+
+  <form action="#" method="post">
+    
+    <!-- 1. Name -->
+    <p>
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" required>
+    </p>
+
+    <!-- 2. Age -->
+    <p>
+      <label for="age">Age:</label><br>
+      <input type="number" id="age" name="age" min="0" required>
+    </p>
+
+    <!-- 3. Gender -->
+    <p>
+      <label for="gender">Gender:</label><br>
+      <select id="gender" name="gender" required>
+        <option value="">-- Select Gender --</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+    </p>
+
+    <!-- 4. ID Number -->
+    <p>
+      <label for="id_number">ID Number:</label><br>
+      <input type="text" id="id_number" name="id_number" required>
+    </p>
+
+    <!-- 5. Patient ID -->
+    <p>
+      <label for="patient_id">Patient ID:</label><br>
+      <input type="text" id="patient_id" name="patient_id" required>
+    </p>
+
+    <!-- 6. Phone Number -->
+    <p>
+      <label for="phone">Phone Number:</label><br>
+      <input type="tel" id="phone" name="phone" required>
+    </p>
+
+    <!-- 7. Health Status -->
+    <p>
+      <label for="health_status">Health Status:</label><br>
+      <input type="text" id="health_status" name="health_status">
+    </p>
+
+    <!-- 8. Address -->
+    <p>
+      <label for="address">Address:</label><br>
+      <textarea id="address" name="address" rows="4" cols="30"></textarea>
+    </p>
+
+    <!-- 9. Marital Status -->
+    <p>
+      <label for="marital_status">Marital Status:</label><br>
+      <select id="marital_status" name="marital_status">
+        <option value="">-- Select Status --</option>
+        <option value="Single">Single</option>
+        <option value="Married">Married</option>
+        <option value="Divorced">Divorced</option>
+        <option value="Widowed">Widowed</option>
+      </select>
+    </p>
+
+    <!-- 10. Next of Kin -->
+    <p>
+      <label for="next_of_kin">Next of Kin:</label><br>
+      <input type="text" id="next_of_kin" name="next_of_kin">
+    </p>
+
+    <!-- 11. Weight -->
+    <p>
+      <label for="weight">Weight (kg):</label><br>
+      <input type="number" id="weight" name="weight" step="0.1">
+    </p>
+
+    <!-- Form Buttons -->
+    <p>
+      <input type="submit" value="Register Patient">
+      <input type="reset" value="Clear Form">
+    </p>
+
+  </form>
+
+</body>
+</html>
