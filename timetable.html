@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Weekly Timetable</title>
+		<style>
+			table {
+				border-collapse: collapse;
+		}
+
+			th,
+			td {
+				border: 1px solid darkseagreen;
+				padding: 8px;
+				text-align: center;
+			}
+
+			thead th {
+				background-color: maroon;
+				color: white;
+			}
+
+			thead th:first-child {
+				background-color: goldenrod;
+			}
+
+			tbody th {
+				background-color: whitesmoke;
+				color: darkslategray;
+			}
+		</style>
+	</head>
+	<body>
+		<table border="1">
+			<caption><b>Weekly Timetable</b></caption>
+			<thead>
+				<tr>
+					<th scope="col">Time</th>
+					<th scope="col">Monday</th>
+					<th scope="col">Tuesday</th>
+					<th scope="col">Wednesday</th>
+					<th scope="col">Thursday</th>
+					<th scope="col">Friday</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">7:00 AM</th>
+					<td></td>
+					<td></td>
+					<td>CIT221<br>7:00 AM - 8:00 AM</td>
+					<td rowspan="2">CIR201<br>7:00 AM - 9:00 AM</td>
+					<td rowspan="2">CIR203<br>7:00 AM - 9:00 AM</td>
+				</tr>
+				<tr>
+					<th scope="row">8:00 AM</th>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th scope="row">9:00 AM</th>
+					<td></td>
+					<td rowspan="3">CIR209<br>9:00 AM - 12:00 PM</td>
+					<td></td>
+					<td rowspan="3">CIM207<br>9:30 AM - 12:00 PM</td>
+					<td rowspan="4">CIS221<br>9:30 AM - 12:30 PM</td>
+				</tr>
+				<tr>
+					<th scope="row">10:00 AM</th>
+					<td></td>
+					<td rowspan="3">CIT221<br>10:00 AM - 1:00 PM</td>
+				</tr>
+				<tr>
+					<th scope="row">11:00 AM</th>
+					<td></td>
+				</tr>
+				<tr>
+					<th scope="row">12:00 PM</th>
+					<td rowspan="4">CIR 205<br>12:30 PM - 3:30 PM</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th scope="row">1:00 PM</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th scope="row">2:00 PM</th>
+					<td></td>
+					<td></td>
+					<td rowspan="2">MMA227<br>2:00 PM - 4:00 PM</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th scope="row">3:00 PM</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
